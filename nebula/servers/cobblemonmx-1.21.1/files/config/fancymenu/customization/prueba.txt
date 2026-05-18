@@ -1,0 +1,77 @@
+# FancyMenu Layout Config
+# Corregido: Anclajes estables y Sizing Absolute
+
+%layout:main_menu%
+
+# Fondo con Aspect Ratio fijo para que el poste no se mueva de lugar
+[layout]
+  keep_aspect_ratio = true
+  base_resolution = 1920x1080
+
+# BOTÓN: JUGAR (Anclado a la izquierda del poste)
+[element:button_jugar]
+  type = button
+  action = play_game
+  x = 50
+  y = 150
+  width = 200
+  height = 40
+  anchor = mid_left
+  sizing = absolute
+  texture = custom_button_jugar.png
+
+# BOTÓN: SERVIDOR (El que no te aparecía)
+[element:button_server]
+  type = button
+  action = join_server
+  server_address = TU_IP_AQUI
+  x = 50
+  y = 200
+  width = 200
+  height = 40
+  anchor = mid_left
+  sizing = absolute
+  order = 10
+
+# BOTÓN: OPCIONES (Corregido el tamaño gigante)
+[element:button_options]
+  type = button
+  action = options
+  x = 50
+  y = 250
+  width = 200
+  height = 40
+  anchor = mid_left
+  sizing = absolute
+
+# BOTÓN: SALIR
+[element:button_quit]
+  type = button
+  action = quit_game
+  x = 50
+  y = 300
+  width = 200
+  height = 40
+  anchor = mid_left
+  sizing = absolute
+
+# BOTÓN: ABRIR EDITOR (Fijado a la esquina inferior derecha)
+[element:button_editor]
+  type = button
+  action = open_editor
+  x = -10
+  y = -10
+  width = 100
+  height = 25
+  anchor = bottom_right
+  sizing = absolute
+
+# OCULTAR BOTONES ORIGINALES (Para evitar que reaparezcan al minimizar)
+[vanilla_element:button_play]
+  visibility = hidden
+
+[vanilla_element:button_options]
+  visibility = hidden
+
+[vanilla_element:button_quit]
+  visibility = hidden

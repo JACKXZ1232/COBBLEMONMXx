@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "",
+    "smallImageKey": "",
+    "smallImageText": ""
+  },
+  "rss": {
+    "title": "CobblemonMX Noticias",
+    "link": "https://tu-proyecto.vercel.app/",
+    "description": "Últimas actualizaciones",
+    "language": "es"
+  },
+  "servers": [
+    {
+      "id": "cobblemonmx",
+      "name": "CobblemonMX",
+      "type": "Server",
+      "mainServer": true,
+      "minecraftVersion": "1.21.1",
+      "version": "1.0.0",
+      "autoConnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc.fabric-loader",
+          "version": "0.16.10",
+          "type": "Fabric"
+        }
+      ]
+    }
+  ]
+}

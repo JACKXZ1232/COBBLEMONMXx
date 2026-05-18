@@ -1,0 +1,60 @@
+{
+  "editorLastVersion": "0.6.25a",
+  "keybindPerModel": {},
+  "globalSettings": {
+    "safetyProfile": "off"
+  },
+  "playerSettings": {},
+  "blockedList": {},
+  "modelProperties": {
+    "extra stuff": {
+      "values": {}
+    },
+    "extra": {
+      "values": {}
+    },
+    "": {
+      "values": {}
+    },
+    "AlphsMario": {
+      "values": {}
+    },
+    "AlphsMiku": {
+      "values": {}
+    },
+    "AlphsGoomba": {
+      "values": {}
+    }
+  },
+  "selectedModelOld": "Pikachu.cpmmodel",
+  "serverSettings": {
+    "cobblemonmx.com.": {
+      "safetyProfile": "off"
+    }
+  },
+  "editorSelectMouseButton": 0.0,
+  "titleScreenButton": true,
+  "friendSettings": {},
+  "keybinds": {},
+  "editorDragMouseButton": -1.0,
+  "renderNames": true,
+  "editorMenuMouseButton": 1.0,
+  "editorRotateMouseButton": 2.0,
+  "editorRecentProjects": [
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\churri.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\Eon.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\nutriawatona.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\nutriadj.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\papunutria.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\papuche.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\parcenutria.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\BMO.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\banquito.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\mapache.cpmproject",
+    "C:\\Users\\Administrator\\AppData\\Roaming\\ModrinthApp\\profiles\\CobblemonmxMondrith 2.0.0\\player_models\\Hornet_Model.cpmproject"
+  ],
+  "safetyProfiles": {},
+  "friendList": {},
+  "editorScale": 1.0,
+  "selectedModel": "REPObot_e14fa62f.cpmmodel"
+}

@@ -1,0 +1,86 @@
+type = user_variables
+
+variable {
+  name = invertmusicstate
+  value = pause
+  reset_on_launch = false
+}
+
+variable {
+  name = musicdir
+  value = animated\bg_musicplayer.fma
+  reset_on_launch = false
+}
+
+variable {
+  name = length
+  value = 3
+  reset_on_launch = false
+}
+
+variable {
+  name = pos1
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = pos2
+  value = 50
+  reset_on_launch = false
+}
+
+variable {
+  name = menu
+  value = 2
+  reset_on_launch = false
+}
+
+variable {
+  name = timeease
+  value = 5.4999999999999964
+  reset_on_launch = false
+}
+
+variable {
+  name = infolink
+  value = https://clay.is-a.dev/minecraft-changelogs-markdown/1.21.1/fancymenu.md
+  reset_on_launch = false
+}
+
+variable {
+  name = light3x
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = musicplay
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = light2x
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = light1x
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = infodata
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = menutitle
+  value = Options
+  reset_on_launch = false
+}
+

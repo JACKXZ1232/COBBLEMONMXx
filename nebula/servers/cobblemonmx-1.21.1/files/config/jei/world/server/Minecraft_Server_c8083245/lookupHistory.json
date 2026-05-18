@@ -1,0 +1,13 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"zamega:golurkite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:careful_mint"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:magmarizer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:pc"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"customnpcs:npcmailbox"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:smooth_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"customnpcs:npcsoulstoneempty"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_mangrove_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:loaded_dice"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

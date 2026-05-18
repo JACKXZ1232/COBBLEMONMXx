@@ -1,0 +1,9 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"cobblemon:pc"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:poke_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:hopper"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:carbos"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"cobblemon:careful_mint","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"cobblemon:tough_candy"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
