@@ -6,11 +6,6 @@
     "description": "Últimas actualizaciones",
     "language": "es"
   },
-  "discord": {
-    "clientId": "",
-    "smallImageKey": "",
-    "smallImageText": ""
-  },
   "servers": [
     {
       "id": "cobblemonmx-1.21.1",
@@ -19,17 +14,11 @@
       "icon": null,
       "version": "1.0.0",
       "address": "cobblemonmx.com",
-      "minecraftVersion": "1.21.1",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
       "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "id": "net.fabricmc:fabric-loader",
           "name": "Fabric (fabric-loader)",
           "type": "Fabric",
           "artifact": {
@@ -577,7 +566,7 @@
           "artifact": {
             "size": 2177333,
             "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Y6UMYlPY/xaerominimap-fabric-1.21.1-25.3.12.jar",
-            "MD5": "0ae4f63c97b972ef3fdcd918c924feb5"
+            "MD5": "00ae4f63c97b972ef3fdcd918c924feb5"
           }
         },
         {
