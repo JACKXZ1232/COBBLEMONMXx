@@ -1,24 +1,24 @@
 {
   "version": "1.0.0",
-  "rss": "https://google.com",
+  "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "1315755760881242165",
-    "smallImageText": "CobblemonMX",
-    "smallImageKey": "Logo"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
-      "id": "cobblemonmx-1.21.1-1.21.1",
-      "name": "cobblemonmx-1.21.1 (Minecraft 1.21.1)",
-      "description": "cobblemonmx-1.21.1 Running Minecraft 1.21.1 (Fabric v0.16.10)",
-      "icon": "https://cdn.discordapp.com/attachments/1315755760881242165/1506088016760930335/Logo.png?ex=6a0cfd44&is=6a0babc4&hm=f0cf3e07886b7488e2041a249b4af037d3ef8c9e15b7c64bb1560ef11ec32d73&",
+      "id": "CobblemonMx-1.21.1",
+      "name": "CobblemonMx Server",
+      "description": "PokeBag Server (Minecraft 1.21.1)",
+      "icon": null,
       "version": "1.0.0",
       "address": "cobblemonmx.com",
       "minecraftVersion": "1.21.1",
-      "discord": {
-        "shortId": "CobblemonMX",
-        "largeImageText": "CobblemonMX",
-        "largeImageKey": "Logo"
+      "discord": {},
+      "mainServer": false,
+      "autoconnect": true,
+      "modules": [
       },
       "mainServer": true,
       "modules": [
