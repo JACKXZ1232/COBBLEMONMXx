@@ -302,7 +302,7 @@
           "artifact": {
             "size": 10373,
             "MD5": "783c9feeca71002d3ab1ed0fcce06051",
-            "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/gRe07TZL/fast-ip-ping-v1.0.11-mc1.21.1-neoforge.jar"
+            "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/NFtAZrG7/fast-ip-ping-v1.0.11-mc1.21.1-fabric.jar?mr_download_reason=standalone"
           }
         },
         {
@@ -332,7 +332,7 @@
           "artifact": {
             "size": 2365335,
             "MD5": "dcedb9014b228c01941b2ef4f2743f19",
-            "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/MAPG6cXE/fzzy_config-0.7.6%2B1.21%2Bneoforge.jar"
+            "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/kOmySYD4/fzzy_config-0.7.6%2B1.21.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
         {
@@ -352,7 +352,7 @@
           "artifact": {
             "size": 342770,
             "MD5": "15a2eafb373bf55d7db6b45971110825",
-            "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/PhxY0iHw/ImmediatelyFast-NeoForge-1.6.10%2B1.21.1.jar"
+            "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/yHztKxR5/ImmediatelyFast-Fabric-1.6.10%2B1.21.1.jar?mr_download_reason=standalone"
           }
         },
         {
@@ -362,7 +362,7 @@
           "artifact": {
             "size": 5363008,
             "MD5": "f1a0c388a0b44c1bb22b953823a0d024",
-            "url": "https://cdn.modrinth.com/data/6txNkua3/versions/cEaVxjXh/immersive_paintings-neoforge-1.21.1-0.7.6.jar"
+            "url": "https://cdn.modrinth.com/data/6txNkua3/versions/LGth3NbU/immersive_paintings-fabric-1.21.1-0.7.6.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
         {
@@ -372,7 +372,7 @@
           "artifact": {
             "size": 2690177,
             "MD5": "1179fe09b9ba970e84ed59259adfe65a",
-            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/t3ruzodq/iris-neoforge-1.8.12%2Bmc1.21.1.jar"
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/zsoi0dso/iris-fabric-1.8.8%2Bmc1.21.1.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
         {
@@ -382,7 +382,7 @@
           "artifact": {
             "size": 29943,
             "MD5": "0cba336efc008242654a9eb80947b89c",
-            "url": "https://cdn.modrinth.com/data/3ESR84kR/versions/jy3ApWAm/Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar"
+            "url": "https://cdn.modrinth.com/data/3ESR84kR/versions/OqMP9ZL0/Item_Obliterator-Fabric_Quilt-MC_1.21-3.1.1.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
         {
@@ -402,7 +402,7 @@
           "artifact": {
             "size": 1561528,
             "MD5": "b4988fdc0d53bc418d6285e4b3d4bf16",
-            "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/YAcQ6elZ/jei-1.21.1-neoforge-19.27.0.340.jar"
+            "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/TvqzuFwN/jei-1.21.1-fabric-19.27.0.340.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
         {
@@ -412,7 +412,7 @@
           "artifact": {
             "size": 786695,
             "MD5": "287ee9cfc6015f706672fd8c20f5ef9c",
-            "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/stJDU839/konkrete_neoforge_1.9.9_MC_1.21.jar"
+            "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/Qvrc7DuG/konkrete_fabric_1.9.9_MC_1.21.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
         {
@@ -452,7 +452,7 @@
           "artifact": {
             "size": 471258,
             "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b",
-            "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/VGmSpV69/modernfix-neoforge-5.27.8%2Bmc1.21.1.jar"
+            "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
         {
@@ -482,7 +482,7 @@
           "artifact": {
             "size": 75984,
             "MD5": "1d39ead1641ef522bc7ae92383f21da8",
-            "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+            "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/ylmBQ38A/MouseTweaks-fabric-mc1.21-2.26.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
         {
@@ -542,7 +542,7 @@
           "artifact": {
             "size": 1297761,
             "MD5": "aa37ba0048a1af6b554b137088cad484",
-            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-neoforge-0.6.13%2Bmc1.21.1.jar"
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-fabric-0.6.13%2Bmc1.21.1.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
         {
@@ -1231,6 +1231,39 @@
             "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/config/fancymenu/legacy_checklist.txt",
             "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
             "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "accessories.json5",
+          "name": "accessories.json5",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/config/accessories.json5",
+            "MD5": "2e5b394d1482402ea95eedcad8b5e87a",
+            "path": "config/accessories.json5"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/config/yacl.json5",
+            "MD5": "9378f7cef65c5208431350700cf83a11",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 708,
+            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/config/zoomify.json",
+            "MD5": "df36a9c5",
+            "path": "config/zoomify.json"
           }
         }
       ]
