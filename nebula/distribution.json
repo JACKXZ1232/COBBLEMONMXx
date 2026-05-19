@@ -19,9 +19,6 @@
       "mainServer": false,
       "autoconnect": true,
       "modules": [
-      },
-      "mainServer": true,
-      "modules": [
         {
           "id": "net.fabricmc.fabric-loader",
           "name": "Fabric Loader",
