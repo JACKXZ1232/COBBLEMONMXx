@@ -8,150 +8,998 @@
   },
   "servers": [
     {
-      "id": "CobblemonMx-1.21.1",
-      "name": "CobblemonMx Server",
-      "description": "PokeBag Server (Minecraft 1.21.1)",
-      "icon": null,
+      "id": "cobblemonmx-1.21.1-1.21.1",
+      "name": "cobblemonmx-1.21.1 (Minecraft 1.21.1)",
+      "description": "cobblemonmx-1.21.1 Running Minecraft 1.21.1 (Fabric v0.16.10)",
+      "icon": "https://cdn.discordapp.com/attachments/1315755760881242165/1506088016760930335/Logo.png?ex=6a0cfd44&is=6a0babc4&hm=f0cf3e07886b7488e2041a249b4af037d3ef8c9e15b7c64bb1560ef11ec32d73&",
       "version": "1.0.0",
       "address": "cobblemonmx.com",
       "minecraftVersion": "1.21.1",
-      "discord": {},
-      "mainServer": false,
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.fabricmc.fabric-loader",
-          "name": "Fabric Loader",
-          "type": "FabricMod",
-          "required": {
-            "value": true
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
           },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "750df5b4576d305d2a51a37129f15905",
+                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.16.10/profile/json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.wispforest:accessories:1.1.0-beta.53+1.21.1@jar",
+          "name": "Accessories",
+          "type": "FabricMod",
           "artifact": {
-            "size": 0,
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar",
-            "MD5": "",
-            "path": "net.fabricmc.fabric-loader:0.16.10"
+            "size": 1095802,
+            "MD5": "1f332447eadf66a07b33e641816fcd5e",
+            "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/Xlt4eWBe/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar"
           }
         },
         {
-          "id": "architectury-fabric.jar",
-          "name": "architectury-fabric.jar",
+          "id": "dev.architectury.utils:architectury:13.0.8@jar",
+          "name": "Architectury",
           "type": "FabricMod",
           "artifact": {
-            "size": 653775,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/architectury-fabric.jar",
-            "MD5": "5eb00c8728d8b6da217a72d7350f5898",
-            "path": "mods/architectury-fabric.jar"
+            "size": 600915,
+            "MD5": "702e92d09a4855c6c8aa9e738a48efa4",
+            "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Wto0RchG/architectury-13.0.8-fabric.jar"
           }
         },
         {
-          "id": "badpackets-fabric.jar",
-          "name": "badpackets-fabric.jar",
+          "id": "net.blay09.mods:balm:21.0.56@jar",
+          "name": "Balm",
           "type": "FabricMod",
           "artifact": {
-            "size": 178226,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/badpackets-fabric.jar",
-            "MD5": "34c7c8fa1761899126fc49e49a815a5f",
-            "path": "mods/badpackets-fabric.jar"
+            "size": 773504,
+            "MD5": "38b7a4a058adde9328d48240effda68c",
+            "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/kUyAERgX/balm-fabric-1.21.1-21.0.57.jar"
           }
         },
         {
-          "id": "cloth-config-fabric.jar",
-          "name": "cloth-config-fabric.jar",
+          "id": "com.catchrate:catchrate-display:2.8.20@jar",
+          "name": "Cobblemon Catch Rate Display",
           "type": "FabricMod",
           "artifact": {
-            "size": 1152865,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/cloth-config-fabric.jar",
-            "MD5": "3db72c842886f4ef89bcff01ea646f90",
-            "path": "mods/cloth-config-fabric.jar"
+            "size": 252773,
+            "MD5": "c286543082b4a1f15feae5080e6b52a9",
+            "url": "https://cdn.modrinth.com/data/vADO40xp/versions/4MuGKLQg/catchrate-display-fabric-2.8.22.jar"
           }
         },
         {
-          "id": "cobblemon-fabric.jar",
-          "name": "cobblemon-fabric.jar",
+          "id": "dev.lucaargolo:charta:1.2.5@jar",
+          "name": "Charta",
           "type": "FabricMod",
           "artifact": {
-            "size": 47683416,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/cobblemon-fabric.jar",
-            "MD5": "c20054d7fa11c572cf931dae7d5e6bfb",
-            "path": "mods/cobblemon-fabric.jar"
+            "size": 7415307,
+            "MD5": "b80b212a20ed27d2e2364d3be660a09f",
+            "url": "https://cdn.modrinth.com/data/sFamPxlk/versions/Z7vf2qW1/charta-fabric-1.21.1-1.2.5.jar"
           }
         },
         {
-          "id": "fabric-api.jar",
-          "name": "fabric-api.jar",
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
           "type": "FabricMod",
           "artifact": {
-            "size": 2420078,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/fabric-api.jar",
-            "MD5": "e0e3778a46b5a32b2be3354dfa489bd0",
-            "path": "mods/fabric-api.jar"
+            "size": 1157166,
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884",
+            "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar"
           }
         },
         {
-          "id": "fancymenu_fabric.jar",
-          "name": "fancymenu_fabric.jar",
+          "id": "party.extras.cobblemon:cobblemon_party_extras:1.8.15@jar",
+          "name": "Cobblemon Party Extras",
           "type": "FabricMod",
           "artifact": {
-            "size": 5262799,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/fancymenu_fabric.jar",
-            "MD5": "68ea65d21fe668fc182ca9fdf4b9319e",
-            "path": "mods/fancymenu_fabric.jar"
+            "size": 394695,
+            "MD5": "571c3f037ef46bae2c7aac177e06fe57",
+            "url": "https://cdn.modrinth.com/data/x2wZP9kQ/versions/400k4IK0/cobblemon_party_extras-fabric-1.8.15.jar"
           }
         },
         {
-          "id": "konkrete_fabric.jar",
-          "name": "konkrete_fabric.jar",
+          "id": "name.modid:cobblemon-battle-extras:1.13.45@jar",
+          "name": "Cobblemon Battle Extras",
           "type": "FabricMod",
           "artifact": {
-            "size": 753170,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/konkrete_fabric.jar",
-            "MD5": "6640d2f099238386f9ee5b1bd57523f0",
-            "path": "mods/konkrete_fabric.jar"
+            "size": 1515972,
+            "MD5": "dbf09923dc28a0339c5c5bb7eae9061d",
+            "url": "https://cdn.modrinth.com/data/2iY8VFqL/versions/Sf5W9mRS/cobblemon-battle-extras-fabric-1.13.45.jar"
           }
         },
         {
-          "id": "loadingscreen_fabric.jar",
-          "name": "loadingscreen_fabric.jar",
+          "id": "com.cobblemon.mod:cobblemon:1.7.3+1.21.1@jar",
+          "name": "Cobblemon",
           "type": "FabricMod",
           "artifact": {
-            "size": 58737,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/loadingscreen_fabric.jar",
-            "MD5": "20876fa5e6e8fc9b6df64ebca2be6eb5",
-            "path": "mods/loadingscreen_fabric.jar"
+            "size": 135801550,
+            "MD5": "1de64f280372ec94e4376976fb579d52",
+            "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/kF7CvxTo/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
           }
         },
         {
-          "id": "melody_fabric.jar",
-          "name": "melody_fabric.jar",
+          "id": "generated.fabricmod:mr_cobblemon_journeymounts:1.7.2@jar",
+          "name": "Cobblemon Journey Mounts",
           "type": "FabricMod",
           "artifact": {
-            "size": 178553,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/melody_fabric.jar",
-            "MD5": "04c107bf823861fcb21fb39f60bf53f0",
-            "path": "mods/melody_fabric.jar"
+            "size": 7368421,
+            "MD5": "2a4ad4c0c2574a53780070c65f8fbd50",
+            "url": "https://cdn.modrinth.com/data/Vn5WCYr6/versions/RKZyNI1R/cobblemon-journey-mounts-1.7.2.jar"
           }
         },
         {
-          "id": "modmenu.jar",
-          "name": "modmenu.jar",
+          "id": "com.metacontent:cobblenav:2.2.5@jar",
+          "name": "Cobblenav",
           "type": "FabricMod",
           "artifact": {
-            "size": 1406734,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/modmenu.jar",
-            "MD5": "f8a705a10984ee493f06ca198a096c40",
-            "path": "mods/modmenu.jar"
+            "size": 780131,
+            "MD5": "f6f1a2fbba01767ec6eb235cc1334650",
+            "url": "https://download.pokebag.fr/servers/PokeBag-1.21.1/fabricmods/required/cobblenav-fabric-2.2.5.jar"
           }
         },
         {
-          "id": "voyager.jar",
-          "name": "voyager.jar",
+          "id": "noppes.npcs:customnpcs:1.0.0@jar",
+          "name": "Custom NPCs",
           "type": "FabricMod",
           "artifact": {
-            "size": 39591,
-            "url": "http://localhost:8080/servers/cobblemonmx-1.21.1-1.21.1/files/mods/voyager.jar",
-            "MD5": "a3250b73e5bf02b6623d3a04294dbe14",
-            "path": "mods/voyager.jar"
+            "size": 13040464,
+            "MD5": "a25fafef6ef2aff922cde1f71baa98a9",
+            "url": "https://cdn.modrinth.com/data/vFAmwl6B/versions/5vYVgtPS/CustomNPCs-Unofficial-Fabric-1.21.1.20260124.jar"
+          }
+        },
+        {
+          "id": "com.tom:cpm:0.6.25a@jar",
+          "name": "Customizable Player Models",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2832867,
+            "MD5": "6959229378a7e11eb3aab269102cc2b1",
+            "url": "https://cdn.modrinth.com/data/h1E7sQNL/versions/2Q1GdlJs/CustomPlayerModels-Fabric-1.21-0.6.25a.jar"
+          }
+        },
+        {
+          "id": "eu.midnightdust:customsplashscreen:2.2.0@jar",
+          "name": "Custom Splash Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 660554,
+            "MD5": "c05035d6d151259def5174d9713f8b68",
+            "url": "https://cdn.modrinth.com/data/BwFQLeCh/versions/OIFSv9om/customsplashscreen-2.2.0.jar"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.5@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1560675,
+            "MD5": "fa490d1bdbb00c612dead5ab52b0b323",
+            "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/FX8eJJiJ/entityculling-fabric-1.10.2-mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.9+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2425600,
+            "MD5": "b7ce8a460c6c9d4538536730864dd818",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Lwt6YYHL/fabric-api-0.116.12%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.9+kotlin.2.3.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7642216,
+            "MD5": "5a82c29fbbfdd3acbb9da9229ae0e32d",
+            "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/2i87JpYj/fabric-language-kotlin-1.13.11%2Bkotlin.2.3.21.jar"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.8.1@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4522643,
+            "MD5": "8e396d8a4315d4d5db4fe742d8d4c0b2",
+            "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/gbCm3cEy/fancymenu_fabric_3.9.1_MC_1.21.1.jar"
+          }
+        },
+        {
+          "id": "me.fallenbreath:fastipping:1.0.8@jar",
+          "name": "Fast IP Ping",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10373,
+            "MD5": "783c9feeca71002d3ab1ed0fcce06051",
+            "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/gRe07TZL/fast-ip-ping-v1.0.11-mc1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123450,
+            "MD5": "b8513c8c3eef01ea1117ed8d8cba060d",
+            "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.1.6@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 633065,
+            "MD5": "eba1a7f9d9976e983a2b9eb5e915e087",
+            "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.6+1.21@jar",
+          "name": "Fzzy Config",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2365335,
+            "MD5": "dcedb9014b228c01941b2ef4f2743f19",
+            "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/MAPG6cXE/fzzy_config-0.7.6%2B1.21%2Bneoforge.jar"
+          }
+        },
+        {
+          "id": "software.bernie:geckolib:4.8.4@jar",
+          "name": "GeckoLib 4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 653722,
+            "MD5": "0044e7b8b4d4096257031692f5995a2c",
+            "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/yUpAp23B/geckolib-fabric-26.1-5.5.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.6.10+1.21.1@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 342770,
+            "MD5": "15a2eafb373bf55d7db6b45971110825",
+            "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/PhxY0iHw/ImmediatelyFast-NeoForge-1.6.10%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "net.conczin:immersive_paintings:0.7.6@jar",
+          "name": "Immersive Paintings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5363008,
+            "MD5": "f1a0c388a0b44c1bb22b953823a0d024",
+            "url": "https://cdn.modrinth.com/data/6txNkua3/versions/cEaVxjXh/immersive_paintings-neoforge-1.21.1-0.7.6.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a",
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/t3ruzodq/iris-neoforge-1.8.12%2Bmc1.21.1.jar"
+          }
+        },
+        {
+          "id": "elocindev.item_obliterator.fabric_quilt:item_obliterator:3.1.1@jar",
+          "name": "Item Obliterator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 29943,
+            "MD5": "0cba336efc008242654a9eb80947b89c",
+            "url": "https://cdn.modrinth.com/data/3ESR84kR/versions/jy3ApWAm/Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:15.10.5+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 739009,
+            "MD5": "a9c20c6a83e08abed4aa62dfa5e608ad",
+            "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/5Sbkzz4O/Jade-1.21.1-Fabric-15.10.5.jar"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:19.27.0.336@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1561528,
+            "MD5": "b4988fdc0d53bc418d6285e4b3d4bf16",
+            "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/YAcQ6elZ/jei-1.21.1-neoforge-19.27.0.340.jar"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.9.9@jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 786695,
+            "MD5": "287ee9cfc6015f706672fd8c20f5ef9c",
+            "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/stJDU839/konkrete_neoforge_1.9.9_MC_1.21.jar"
+          }
+        },
+        {
+          "id": "fi.dy.masa:malilib:0.21.10@jar",
+          "name": "MaLiLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1411200,
+            "MD5": "6a5553e46eed0692d17b8cd566aed103",
+            "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mega_showdown:fabric-1.7.3+1.7.3+1.21.1@jar",
+          "name": "Mega_showdown",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16947666,
+            "MD5": "33386165ebf83f650217d3dd85fc9562",
+            "url": "https://cdn.modrinth.com/data/SszvX85I/versions/Y6di9Ram/mega_showdown-fabric-1.8.4%2B1.7.3%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.10@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188035,
+            "MD5": "0f1bfbf2dd4fa047a1616fc448f3b856",
+            "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/OqxSeb4n/melody_fabric_1.0.10_MC_1.21.jar"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.25.1+mc1.21.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471258,
+            "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b",
+            "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/VGmSpV69/modernfix-neoforge-5.27.8%2Bmc1.21.1.jar"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0",
+            "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/v6Xx3fbU/modmenu-11.0.4.jar"
+          }
+        },
+        {
+          "id": "me.justahuman:more_cobblemon_tweaks:1.3.3@jar",
+          "name": "MoreCobblemonTweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 137626,
+            "MD5": "8c9e870b8dc446ffdc98d106f65da075",
+            "url": "https://cdn.modrinth.com/data/5KWlJ2HC/versions/1KKV0SvS/MoreCobblemonTweaks-fabric-1.3.3.jar"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 75984,
+            "MD5": "1d39ead1641ef522bc7ae92383f21da8",
+            "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+          }
+        },
+        {
+          "id": "elocindev.necronomicon:necronomicon:1.6.0@jar",
+          "name": "Necronomicon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 37055,
+            "MD5": "e197f0343fe4965699ce56f381b54952",
+            "url": "https://cdn.modrinth.com/data/P1Kv5EAO/versions/O6odCETu/Necronomicon-Fabric-1.6.0%2B1.21.jar"
+          }
+        },
+        {
+          "id": "io.wispforest:owo:0.12.15.4+1.21@jar",
+          "name": "Oωo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1183559,
+            "MD5": "3627aee17111e12a8c66928f5d7a3fba",
+            "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/m3XmDd8j/owo-lib-0.13.0-alpha.15%2B1.21.jar"
+          }
+        },
+        {
+          "id": "dev.mrshawn:pokeblocks:1.4.0-1.21.1@jar",
+          "name": "Pokeblocks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1606467,
+            "MD5": "a576344a9af471b67b47437adcdd2a63",
+            "url": "https://cdn.modrinth.com/data/hnOfcjSq/versions/qlp66lU8/pokeblocks-1.5.0-1.21.1.jar"
+          }
+        },
+        {
+          "id": "timmychips.pommelheldmodels:pommel:1.4.2+1.21.x@jar",
+          "name": "Pommel - Held Item Models",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 50703,
+            "MD5": "bcf200fc300f9edc7ef7b536fd3d26e9",
+            "url": "https://cdn.modrinth.com/data/fsc3VDsD/versions/Peyy1O6c/pommel-held-items-1.4.2%2B1.21.x.jar"
+          }
+        },
+        {
+          "id": "dragomordor.simpletms:simpletms:2.3.3@jar",
+          "name": "SimpleTMs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 821382,
+            "MD5": "9a9d474ca102e1d04fa89926fa837896",
+            "url": "PENDIENTE_REEMPLAZA_CON_URL_DIRECTA_DE_SimpleTMs-fabric-2.3.3.jar"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "MD5": "aa37ba0048a1af6b554b137088cad484",
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-neoforge-0.6.13%2Bmc1.21.1.jar"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.6.12@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5341263,
+            "MD5": "59b4135850402bde197adabd78fe85d6",
+            "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/CFP1TPw9/voicechat-fabric-1.21.1-2.6.17.jar"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.3.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2177333,
+            "MD5": "0ae4f63c97b972ef3fdcd918c924feb5",
+            "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Y6UMYlPY/xaerominimap-fabric-1.21.1-25.3.12.jar"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.40.11@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1413973,
+            "MD5": "bb6a594507dc9db0a981b2a2d6cf910c",
+            "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/HvYNIyXh/xaeroworldmap-fabric-1.21.1-1.40.16.jar"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.2+1.21.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1131265,
+            "MD5": "aadf11f5a793296be7c195e1ca388492",
+            "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/jveY2yY0/yet_another_config_lib_v3-3.9.3%2B26.2-fabric.jar"
+          }
+        },
+        {
+          "id": "org.zamega:zamega:1.7.1@jar",
+          "name": "Zamega",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2374842,
+            "MD5": "0c1a7288e27d27212add5c77e2174086",
+            "url": "https://cdn.modrinth.com/data/2V1Y86sc/versions/x5u68zHH/zamega-fabric-1.7.3.jar"
+          }
+        },
+        {
+          "id": "accessories.json5",
+          "name": "accessories.json5",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "MD5": "2e5b394d1482402ea95eedcad8b5e87a",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/accessories.json5"
+          }
+        },
+        {
+          "id": "catchrate-display.json",
+          "name": "catchrate-display.json",
+          "type": "File",
+          "artifact": {
+            "size": 181,
+            "MD5": "c21e8d0177156c41d773b557b90db5a1",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/catchrate-display.json"
+          }
+        },
+        {
+          "id": "cobblemon-main.json",
+          "name": "main.json",
+          "type": "File",
+          "artifact": {
+            "size": 3408,
+            "MD5": "e766eff9d190c0e56184439f1bbaeaaf",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/cobblemon/main.json"
+          }
+        },
+        {
+          "id": "cobblemon-battle-extras.json",
+          "name": "cobblemon-battle-extras.json",
+          "type": "File",
+          "artifact": {
+            "size": 4025,
+            "MD5": "0413d24788612b3dad8d82728ffd03a1",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/cobblemon-battle-extras.json"
+          }
+        },
+        {
+          "id": "cobblemon_party_extras.json",
+          "name": "cobblemon_party_extras.json",
+          "type": "File",
+          "artifact": {
+            "size": 897,
+            "MD5": "8346da62a6f0a6b0bc8bbf86db446621",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/cobblemon_party_extras.json"
+          }
+        },
+        {
+          "id": "cobblenav-client-config.json",
+          "name": "client-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 415,
+            "MD5": "f3abbada287b9bfe11f35182c61ad34a",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/cobblenav/client-config.json"
+          }
+        },
+        {
+          "id": "cobblenav-server-config.json",
+          "name": "server-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 1246,
+            "MD5": "3f419f9fb8de7c423f8b35d7b796c2aa",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/cobblenav/server-config.json"
+          }
+        },
+        {
+          "id": "cpm.json",
+          "name": "cpm.json",
+          "type": "File",
+          "artifact": {
+            "size": 2447,
+            "MD5": "bbadee30b7632417aa78b77e0a9f3fac",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/cpm.json"
+          }
+        },
+        {
+          "id": "CustomNpcs.cfg",
+          "name": "CustomNpcs.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1924,
+            "MD5": "063975f0106ea3bb442090b7a176320f",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/CustomNpcs.cfg"
+          }
+        },
+        {
+          "id": "customsplashscreen-background",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 524472,
+            "MD5": "3e4fe3eff55525870e839eef9ab9d11a",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/customsplashscreen/background.png"
+          }
+        },
+        {
+          "id": "customsplashscreen-progressbar",
+          "name": "progressbar.png",
+          "type": "File",
+          "artifact": {
+            "size": 340,
+            "MD5": "d6a0dcd5d2404e29a715bec4d364e081",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/customsplashscreen/progressbar.png"
+          }
+        },
+        {
+          "id": "customsplashscreen-progressbar-bg",
+          "name": "progressbar_background.png",
+          "type": "File",
+          "artifact": {
+            "size": 172,
+            "MD5": "c53a1a95a78e5605f45c32c22bda1c36",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/customsplashscreen/progressbar_background.png"
+          }
+        },
+        {
+          "id": "customsplashscreen-square-logo",
+          "name": "square_logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 50517,
+            "MD5": "973c913f0a82de6fce163dda091000d6",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/customsplashscreen/square_logo.png"
+          }
+        },
+        {
+          "id": "customsplashscreen-wide-logo",
+          "name": "wide_logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 11788,
+            "MD5": "b33fb474b70f0579c2c646f16b456a8c",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/customsplashscreen/wide_logo.png"
+          }
+        },
+        {
+          "id": "customsplashscreen.json",
+          "name": "customsplashscreen.json",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "MD5": "6ddcb082cd654ae63fb3422007d47b2a",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/customsplashscreen.json"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1897,
+            "MD5": "422b1718498a957ece2de2453634102a",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "MD5": "6e8af77322aa0ce14f6059d9a39fafac",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "fancymenu-1111png",
+          "name": "1111png.png",
+          "type": "File",
+          "artifact": {
+            "size": 214559,
+            "MD5": "6c9a8e68d4decce7a494771300a11ac5",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/1111png.png"
+          }
+        },
+        {
+          "id": "fancymenu-background",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 1851740,
+            "MD5": "830536cda49f22a0acef6d676c8ef1ab",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/background.png"
+          }
+        },
+        {
+          "id": "fancymenu-baise",
+          "name": "baise.png",
+          "type": "File",
+          "artifact": {
+            "size": 330121,
+            "MD5": "7d290d17021494dce2f697e20ea08748",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/baise.png"
+          }
+        },
+        {
+          "id": "fancymenu-death",
+          "name": "death.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 304977,
+            "MD5": "5f261e89e9f98621e56a89c3eee67a0d",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/death.jpg"
+          }
+        },
+        {
+          "id": "fancymenu-discord",
+          "name": "discord.png",
+          "type": "File",
+          "artifact": {
+            "size": 228001,
+            "MD5": "904fb59e0de8469fc355933125e53302",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/discord.png"
+          }
+        },
+        {
+          "id": "fancymenu-discordharvor",
+          "name": "discordharvor.png",
+          "type": "File",
+          "artifact": {
+            "size": 208983,
+            "MD5": "608708e23778a81569dd4230a5cc7981",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/discordharvor.png"
+          }
+        },
+        {
+          "id": "fancymenu-logo",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 223501,
+            "MD5": "70dd6507615c659faf2dd90ce784b5f9",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/logo.png"
+          }
+        },
+        {
+          "id": "fancymenu-logoremas",
+          "name": "logoremas.png",
+          "type": "File",
+          "artifact": {
+            "size": 338381,
+            "MD5": "69bd08ea406df8edcac883f505f83d1f",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/logoremas.png"
+          }
+        },
+        {
+          "id": "fancymenu-jugarh2",
+          "name": "jugarh2.png",
+          "type": "File",
+          "artifact": {
+            "size": 216252,
+            "MD5": "e126e365469de8c74db35621e9912645",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/jugarh2.png"
+          }
+        },
+        {
+          "id": "fancymenu-jugarhorver",
+          "name": "jugarhorver.png",
+          "type": "File",
+          "artifact": {
+            "size": 264208,
+            "MD5": "5c45b5e0a57bafa8978d48918b1b5ecd",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/jugarhorver.png"
+          }
+        },
+        {
+          "id": "fancymenu-salir1",
+          "name": "salir1.png",
+          "type": "File",
+          "artifact": {
+            "size": 160889,
+            "MD5": "71136d32bd2623744d59f567adc731ea",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/salir1.png"
+          }
+        },
+        {
+          "id": "fancymenu-salirhover",
+          "name": "salirhover.png",
+          "type": "File",
+          "artifact": {
+            "size": 172196,
+            "MD5": "77b45312eea4dc2d7323bae22b62dc34",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/salirhover.png"
+          }
+        },
+        {
+          "id": "fancymenu-tienda",
+          "name": "tienda.png",
+          "type": "File",
+          "artifact": {
+            "size": 255825,
+            "MD5": "4ef07fa4ab2b411cb16c01a3992acb21",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/tienda.png"
+          }
+        },
+        {
+          "id": "fancymenu-tiendahover",
+          "name": "tiendahover.png",
+          "type": "File",
+          "artifact": {
+            "size": 257118,
+            "MD5": "cb4284eb68fdc8c77efb8b8fbe2b17d9",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/assets/tiendahover.png"
+          }
+        },
+        {
+          "id": "fancymenu-customizablemenus",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 55,
+            "MD5": "7f493e2abc148fb67ac97306b080cfdb",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "fancymenu-cobblemonmx-layout",
+          "name": "cobblemonmx.txt",
+          "type": "File",
+          "artifact": {
+            "size": 36372,
+            "MD5": "87ab0243afac3a49ebcf9fe60269c91e",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/customization/cobblemonmx.txt"
+          }
+        },
+        {
+          "id": "fancymenu-title-screen-layout",
+          "name": "title_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 40266,
+            "MD5": "f06b8ebbce0ab5a004f62dbae7103f03",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/customization/title_screen_layout.txt"
+          }
+        },
+        {
+          "id": "fancymenu-death-screen-layout",
+          "name": "death_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6239,
+            "MD5": "61989847c16c1b53e980a24e598b335a",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/customization/death_screen_layout.txt"
+          }
+        },
+        {
+          "id": "fancymenu-audio-controller",
+          "name": "audio_element_controller_metas.json",
+          "type": "File",
+          "artifact": {
+            "size": 216,
+            "MD5": "32a7775dc8257ffb5d9acd51461a5677",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/audio_element_controller_metas.json"
+          }
+        },
+        {
+          "id": "fancymenu-legacy-checklist",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "url": "PENDIENTE_SUBE_CONFIGS_A_GITHUB_RAW",
+            "path": "config/fancymenu/legacy_checklist.txt"
           }
         }
       ]
