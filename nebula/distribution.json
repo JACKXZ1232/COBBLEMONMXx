@@ -602,7 +602,7 @@
           "artifact": {
             "size": 926,
             "MD5": "2e5b394d1482402ea95eedcad8b5e87a",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/accessories.json5",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/accessories.json5",
             "path": "config/accessories.json5"
           }
         },
@@ -613,7 +613,7 @@
           "artifact": {
             "size": 181,
             "MD5": "c21e8d0177156c41d773b557b90db5a1",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/catchrate-display.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/catchrate-display.json",
             "path": "config/catchrate-display.json"
           }
         },
@@ -624,7 +624,7 @@
           "artifact": {
             "size": 3408,
             "MD5": "e766eff9d190c0e56184439f1bbaeaaf",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/cobblemon/main.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/cobblemon/main.json",
             "path": "config/cobblemon/main.json"
           }
         },
@@ -635,7 +635,7 @@
           "artifact": {
             "size": 4025,
             "MD5": "0413d24788612b3dad8d82728ffd03a1",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/cobblemon-battle-extras.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/cobblemon-battle-extras.json",
             "path": "config/cobblemon-battle-extras.json"
           }
         },
@@ -646,7 +646,7 @@
           "artifact": {
             "size": 897,
             "MD5": "8346da62a6f0a6b0bc8bbf86db446621",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/cobblemon_party_extras.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/cobblemon_party_extras.json",
             "path": "config/cobblemon_party_extras.json"
           }
         },
@@ -657,7 +657,7 @@
           "artifact": {
             "size": 415,
             "MD5": "f3abbada287b9bfe11f35182c61ad34a",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/cobblenav/client-config.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/cobblenav/client-config.json",
             "path": "config/cobblenav/client-config.json"
           }
         },
@@ -668,7 +668,7 @@
           "artifact": {
             "size": 1246,
             "MD5": "3f419f9fb8de7c423f8b35d7b796c2aa",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/cobblenav/server-config.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/cobblenav/server-config.json",
             "path": "config/cobblenav/server-config.json"
           }
         },
@@ -679,7 +679,7 @@
           "artifact": {
             "size": 2447,
             "MD5": "bbadee30b7632417aa78b77e0a9f3fac",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/cpm.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/cpm.json",
             "path": "config/cpm.json"
           }
         },
@@ -690,7 +690,7 @@
           "artifact": {
             "size": 1924,
             "MD5": "063975f0106ea3bb442090b7a176320f",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/CustomNpcs.cfg",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/CustomNpcs.cfg",
             "path": "config/CustomNpcs.cfg"
           }
         },
@@ -701,7 +701,7 @@
           "artifact": {
             "size": 524472,
             "MD5": "3e4fe3eff55525870e839eef9ab9d11a",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/background.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/customsplashscreen/background.png",
             "path": "config/customsplashscreen/background.png"
           }
         },
@@ -712,7 +712,7 @@
           "artifact": {
             "size": 340,
             "MD5": "d6a0dcd5d2404e29a715bec4d364e081",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/progressbar.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/customsplashscreen/progressbar.png",
             "path": "config/customsplashscreen/progressbar.png"
           }
         },
@@ -723,7 +723,7 @@
           "artifact": {
             "size": 172,
             "MD5": "c53a1a95a78e5605f45c32c22bda1c36",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/progressbar_background.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/customsplashscreen/progressbar_background.png",
             "path": "config/customsplashscreen/progressbar_background.png"
           }
         },
@@ -734,7 +734,7 @@
           "artifact": {
             "size": 50517,
             "MD5": "973c913f0a82de6fce163dda091000d6",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/square_logo.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/customsplashscreen/square_logo.png",
             "path": "config/customsplashscreen/square_logo.png"
           }
         },
@@ -745,7 +745,7 @@
           "artifact": {
             "size": 11788,
             "MD5": "b33fb474b70f0579c2c646f16b456a8c",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/wide_logo.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/customsplashscreen/wide_logo.png",
             "path": "config/customsplashscreen/wide_logo.png"
           }
         },
@@ -756,7 +756,7 @@
           "artifact": {
             "size": 426,
             "MD5": "6ddcb082cd654ae63fb3422007d47b2a",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/customsplashscreen.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/customsplashscreen.json",
             "path": "config/customsplashscreen.json"
           }
         },
@@ -767,7 +767,7 @@
           "artifact": {
             "size": 1897,
             "MD5": "422b1718498a957ece2de2453634102a",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/entityculling.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/entityculling.json",
             "path": "config/entityculling.json"
           }
         },
@@ -778,7 +778,7 @@
           "artifact": {
             "size": 290,
             "MD5": "6e8af77322aa0ce14f6059d9a39fafac",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fabric/indigo-renderer.properties",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fabric/indigo-renderer.properties",
             "path": "config/fabric/indigo-renderer.properties"
           }
         },
@@ -789,7 +789,7 @@
           "artifact": {
             "size": 214559,
             "MD5": "6c9a8e68d4decce7a494771300a11ac5",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/1111png.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/1111png.png",
             "path": "config/fancymenu/assets/1111png.png"
           }
         },
@@ -800,7 +800,7 @@
           "artifact": {
             "size": 1851740,
             "MD5": "830536cda49f22a0acef6d676c8ef1ab",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/background.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/background.png",
             "path": "config/fancymenu/assets/background.png"
           }
         },
@@ -811,7 +811,7 @@
           "artifact": {
             "size": 330121,
             "MD5": "7d290d17021494dce2f697e20ea08748",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/baise.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/baise.png",
             "path": "config/fancymenu/assets/baise.png"
           }
         },
@@ -822,7 +822,7 @@
           "artifact": {
             "size": 304977,
             "MD5": "5f261e89e9f98621e56a89c3eee67a0d",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/death.jpg",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/death.jpg",
             "path": "config/fancymenu/assets/death.jpg"
           }
         },
@@ -833,7 +833,7 @@
           "artifact": {
             "size": 228001,
             "MD5": "904fb59e0de8469fc355933125e53302",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/discord.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/discord.png",
             "path": "config/fancymenu/assets/discord.png"
           }
         },
@@ -844,7 +844,7 @@
           "artifact": {
             "size": 208983,
             "MD5": "608708e23778a81569dd4230a5cc7981",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/discordharvor.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/discordharvor.png",
             "path": "config/fancymenu/assets/discordharvor.png"
           }
         },
@@ -855,7 +855,7 @@
           "artifact": {
             "size": 223501,
             "MD5": "70dd6507615c659faf2dd90ce784b5f9",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/logo.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/logo.png",
             "path": "config/fancymenu/assets/logo.png"
           }
         },
@@ -866,7 +866,7 @@
           "artifact": {
             "size": 338381,
             "MD5": "69bd08ea406df8edcac883f505f83d1f",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/logoremas.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/logoremas.png",
             "path": "config/fancymenu/assets/logoremas.png"
           }
         },
@@ -877,7 +877,7 @@
           "artifact": {
             "size": 216252,
             "MD5": "e126e365469de8c74db35621e9912645",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/jugarh2.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/jugarh2.png",
             "path": "config/fancymenu/assets/jugarh2.png"
           }
         },
@@ -888,7 +888,7 @@
           "artifact": {
             "size": 264208,
             "MD5": "5c45b5e0a57bafa8978d48918b1b5ecd",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/jugarhorver.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/jugarhorver.png",
             "path": "config/fancymenu/assets/jugarhorver.png"
           }
         },
@@ -899,7 +899,7 @@
           "artifact": {
             "size": 160889,
             "MD5": "71136d32bd2623744d59f567adc731ea",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/salir1.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/salir1.png",
             "path": "config/fancymenu/assets/salir1.png"
           }
         },
@@ -910,7 +910,7 @@
           "artifact": {
             "size": 172196,
             "MD5": "77b45312eea4dc2d7323bae22b62dc34",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/salirhover.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/salirhover.png",
             "path": "config/fancymenu/assets/salirhover.png"
           }
         },
@@ -921,7 +921,7 @@
           "artifact": {
             "size": 255825,
             "MD5": "4ef07fa4ab2b411cb16c01a3992acb21",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/tienda.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/tienda.png",
             "path": "config/fancymenu/assets/tienda.png"
           }
         },
@@ -932,7 +932,7 @@
           "artifact": {
             "size": 257118,
             "MD5": "cb4284eb68fdc8c77efb8b8fbe2b17d9",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/tiendahover.png",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/assets/tiendahover.png",
             "path": "config/fancymenu/assets/tiendahover.png"
           }
         },
@@ -943,7 +943,7 @@
           "artifact": {
             "size": 55,
             "MD5": "7f493e2abc148fb67ac97306b080cfdb",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/customizablemenus.txt",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/customizablemenus.txt",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
@@ -954,7 +954,7 @@
           "artifact": {
             "size": 36372,
             "MD5": "87ab0243afac3a49ebcf9fe60269c91e",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/customization/cobblemonmx.txt",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/customization/cobblemonmx.txt",
             "path": "config/fancymenu/customization/cobblemonmx.txt"
           }
         },
@@ -965,7 +965,7 @@
           "artifact": {
             "size": 40266,
             "MD5": "f06b8ebbce0ab5a004f62dbae7103f03",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/customization/title_screen_layout.txt",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/customization/title_screen_layout.txt",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
@@ -976,7 +976,7 @@
           "artifact": {
             "size": 6239,
             "MD5": "61989847c16c1b53e980a24e598b335a",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/customization/death_screen_layout.txt",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/customization/death_screen_layout.txt",
             "path": "config/fancymenu/customization/death_screen_layout.txt"
           }
         },
@@ -987,7 +987,7 @@
           "artifact": {
             "size": 216,
             "MD5": "32a7775dc8257ffb5d9acd51461a5677",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/audio_element_controller_metas.json",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/audio_element_controller_metas.json",
             "path": "config/fancymenu/audio_element_controller_metas.json"
           }
         },
@@ -998,7 +998,7 @@
           "artifact": {
             "size": 42,
             "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
-            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/files/config/fancymenu/legacy_checklist.txt",
+            "url": "https://raw.githubusercontent.com/JACKXZ1232/COBBLEMONMXx/main/nebula/servers/cobblemonmx-1.21.1/config/fancymenu/legacy_checklist.txt",
             "path": "config/fancymenu/legacy_checklist.txt"
           }
         }
