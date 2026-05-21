@@ -581,7 +581,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1131265,
-            "MD5": "aadf11f5a793296be7c195e1ca388492",
+            "MD5": "AADF11F5A793296BE7C195E1CA388492",
             "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar?mr_download_reason=standalone&mr_game_version=1.21.1&mr_loader=fabric"
           }
         },
